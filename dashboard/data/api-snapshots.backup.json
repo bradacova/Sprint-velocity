@@ -1,0 +1,739 @@
+{
+  "projects": {
+    "Mobile app": {
+      "iterations": {
+        "71ce65f0": {
+          "iteration_id": "71ce65f0",
+          "title": "Sprint  35",
+          "start_date": "2026-02-26",
+          "duration": 14,
+          "created_at": "2026-03-04T11:04:20.769Z",
+          "planned_sp": 31,
+          "items": {
+            "PVTI_lADOABzUCM4BHIzzzghsLjI": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzghsLjI",
+              "issue_number": 27504,
+              "title": "Navigate to variant detail form Product detail variants preview",
+              "url": "https://github.com/shoptet/cms4/issues/27504",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgjRGi0": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgjRGi0",
+              "issue_number": 29026,
+              "title": "Add copy feature to email and phone field in Order detail",
+              "url": "https://github.com/shoptet/cms4/issues/29026",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgg_T70": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgg_T70",
+              "issue_number": 21517,
+              "title": "Implement QueryContainer into all screens",
+              "url": "https://github.com/shoptet/cms4/issues/21517",
+              "sp_start": 8,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzggwlig": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzggwlig",
+              "issue_number": 20785,
+              "title": "Overflowing SecureStore",
+              "url": "https://github.com/shoptet/cms4/issues/20785",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgjuVwk": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgjuVwk",
+              "issue_number": 29619,
+              "title": "Implement EAS workflow for Maestro E2E testing",
+              "url": "https://github.com/shoptet/cms4/issues/29619",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzggsXzQ": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzggsXzQ",
+              "issue_number": 25657,
+              "title": "Design flow for asking MA users for a review",
+              "url": "https://github.com/shoptet/cms4/issues/25657",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzggsY2Y": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzggsY2Y",
+              "issue_number": 20786,
+              "title": "News: Implement marketing news into app",
+              "url": "https://github.com/shoptet/cms4/issues/20786",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgg9xmo": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgg9xmo",
+              "issue_number": 21776,
+              "title": "Add login outcome processing to skip login",
+              "url": "https://github.com/shoptet/cms4/issues/21776",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgg97mc": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgg97mc",
+              "issue_number": 23402,
+              "title": "Add Dev Console activation in production",
+              "url": "https://github.com/shoptet/cms4/issues/23402",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzggsY2k": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzggsY2k",
+              "issue_number": 13934,
+              "title": "BE: News in CRM and Push notifications",
+              "url": "https://github.com/shoptet/cms4/issues/13934",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzghcUjU": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzghcUjU",
+              "issue_number": 22409,
+              "title": "Revise the design and position of \"All\" button",
+              "url": "https://github.com/shoptet/cms4/issues/22409",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgilFso": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgilFso",
+              "issue_number": 28464,
+              "title": "Caller ID design check",
+              "url": "https://github.com/shoptet/cms4/issues/28464",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgivjxE": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgivjxE",
+              "issue_number": 28674,
+              "title": "Add tests for order products page",
+              "url": "https://github.com/shoptet/cms4/issues/28674",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgj4Uos": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgj4Uos",
+              "issue_number": 29740,
+              "title": "Add news endpoint without login",
+              "url": "https://github.com/shoptet/cms4/issues/29740",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgiZ7g8": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgiZ7g8",
+              "issue_number": 28320,
+              "title": "PoC: Caller identification",
+              "url": "https://github.com/shoptet/cms4/issues/28320",
+              "sp_start": 5,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgmd2Gw": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgmd2Gw",
+              "issue_number": 32357,
+              "title": "Lazy-load filter data — fetch only when Filter sheet is opened",
+              "url": "https://github.com/shoptet/cms4/issues/32357",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgg9yHU": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgg9yHU",
+              "issue_number": 22374,
+              "title": "Mobile app: extends base TS config",
+              "url": "https://github.com/shoptet/cms4/issues/22374",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgk47L0": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgk47L0",
+              "issue_number": 30815,
+              "title": "Design product variant visibility",
+              "url": "https://github.com/shoptet/cms4/issues/30815",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHIzzzgljK9c": {
+              "item_id": "PVTI_lADOABzUCM4BHIzzzgljK9c",
+              "issue_number": 31468,
+              "title": "Add detail information about delivery in the order",
+              "url": "https://github.com/shoptet/cms4/issues/31468",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            }
+          },
+          "initialized": true
+        }
+      }
+    },
+    "Frontend Admin": {
+      "iterations": {
+        "192bbca3": {
+          "iteration_id": "192bbca3",
+          "title": "Sprint  35",
+          "start_date": "2026-02-26",
+          "duration": 14,
+          "created_at": "2026-03-04T11:04:20.769Z",
+          "planned_sp": 51.5,
+          "items": {
+            "PVTI_lADOABzUCM4ApvY_zgVl0gQ": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgVl0gQ",
+              "issue_number": 10420,
+              "title": "Separate CSS for React and Smarty pages",
+              "url": "https://github.com/shoptet/cms4/issues/10420",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgekj-A": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgekj-A",
+              "issue_number": 23689,
+              "title": "Rewrite AccountingSettings to React",
+              "url": "https://github.com/shoptet/cms4/issues/23689",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgmOr3U": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgmOr3U",
+              "issue_number": 32171,
+              "title": "Packages - update (START of SPRINT)",
+              "url": "https://github.com/shoptet/cms4/issues/32171",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgVl0CA": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgVl0CA",
+              "issue_number": 10613,
+              "title": "Duplicate jQuery Cybergenics form validator in Admin and CRM",
+              "url": "https://github.com/shoptet/cms4/issues/10613",
+              "sp_start": 5,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zglPfyc": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zglPfyc",
+              "issue_number": 31170,
+              "title": "Handle `JsonResponse` objects in FE `fetch` hooks",
+              "url": "https://github.com/shoptet/cms4/issues/31170",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgc02I4": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgc02I4",
+              "issue_number": 21388,
+              "title": "Copy to clipboard next to H1 in react",
+              "url": "https://github.com/shoptet/cms4/issues/21388",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgiDkrk": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgiDkrk",
+              "issue_number": 27953,
+              "title": "Pilot error handling in some application or module",
+              "url": "https://github.com/shoptet/cms4/issues/27953",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zglPakI": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zglPakI",
+              "issue_number": 31167,
+              "title": "RFC: Unified Response Format",
+              "url": "https://github.com/shoptet/cms4/issues/31167",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgk0qOI": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgk0qOI",
+              "issue_number": 30243,
+              "title": "Komplet Pricelist - communicate higher tiers",
+              "url": "https://github.com/shoptet/cms4/issues/30243",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgg-ORs": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgg-ORs",
+              "issue_number": 26799,
+              "title": "Move docusauruses from Vercel to shoptet-static",
+              "url": "https://github.com/shoptet/cms4/issues/26799",
+              "sp_start": 0.5,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zglmR3I": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zglmR3I",
+              "issue_number": 31499,
+              "title": "Switch root package.json from yarn 3 to PNPM",
+              "url": "https://github.com/shoptet/cms4/issues/31499",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgjN_dM": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgjN_dM",
+              "issue_number": 28976,
+              "title": "Implement Smart App Banner to more browsers",
+              "url": "https://github.com/shoptet/cms4/issues/28976",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgbhRzw": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgbhRzw",
+              "issue_number": 19313,
+              "title": "`useField` type error hint",
+              "url": "https://github.com/shoptet/cms4/issues/19313",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zglNALQ": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zglNALQ",
+              "issue_number": 31150,
+              "title": "Microsite redesign for Shoptet campaigns (Google + Meta)",
+              "url": "https://github.com/shoptet/cms4/issues/31150",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgVlxMo": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgVlxMo",
+              "issue_number": 10581,
+              "title": "React: Handle CSRF expiration when XHR is returned logged out response",
+              "url": "https://github.com/shoptet/cms4/issues/10581",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgmI9Dk": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgmI9Dk",
+              "issue_number": 32065,
+              "title": "create hook `useHandleUploadImage`",
+              "url": "https://github.com/shoptet/cms4/issues/32065",
+              "sp_start": 5,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgj3uOA": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgj3uOA",
+              "issue_number": 29714,
+              "title": "Rewrite to React: EmailTemplatesLayout",
+              "url": "https://github.com/shoptet/cms4/issues/29714",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgaihjM": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgaihjM",
+              "issue_number": 17690,
+              "title": "Replace the word \"váha\" with \"hmotnost\" in admin",
+              "url": "https://github.com/shoptet/cms4/issues/17690",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zglhbNM": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zglhbNM",
+              "issue_number": 31407,
+              "title": "Document Backend-Frontend Response Serialization: Object vs Array",
+              "url": "https://github.com/shoptet/cms4/issues/31407",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgj8kxY": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgj8kxY",
+              "issue_number": 26382,
+              "title": "Add field to apply discount code for new project tariff",
+              "url": "https://github.com/shoptet/cms4/issues/26382",
+              "sp_start": 8,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zglZUv8": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zglZUv8",
+              "issue_number": 31329,
+              "title": "Add Userpilot directly into codebase",
+              "url": "https://github.com/shoptet/cms4/issues/31329",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zglZkdA": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zglZkdA",
+              "issue_number": 31336,
+              "title": "Add new og images to doplnky.shoptet.cz-hu",
+              "url": "https://github.com/shoptet/cms4/issues/31336",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4ApvY_zgl07xE": {
+              "item_id": "PVTI_lADOABzUCM4ApvY_zgl07xE",
+              "issue_number": 31757,
+              "title": "Translate all possible error pages to display the same error",
+              "url": "https://github.com/shoptet/cms4/issues/31757",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            }
+          },
+          "initialized": true
+        }
+      }
+    },
+    "Design system": {
+      "iterations": {
+        "866a9fe5": {
+          "iteration_id": "866a9fe5",
+          "title": "Sprint  35",
+          "start_date": "2026-02-19",
+          "duration": 14,
+          "created_at": "2026-03-04T11:04:20.769Z",
+          "planned_sp": 38.5,
+          "items": {
+            "PVTI_lADOABzUCM4BHtfuzgjRuTc": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgjRuTc",
+              "issue_number": 29053,
+              "title": "AppBar Enhancement",
+              "url": "https://github.com/shoptet/cms4/issues/29053",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgkvsu4": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgkvsu4",
+              "issue_number": 30673,
+              "title": "Prepare tokens for Web and Native Admin UI Kit in code",
+              "url": "https://github.com/shoptet/cms4/issues/30673",
+              "sp_start": 5,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgmOCjQ": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgmOCjQ",
+              "issue_number": 32148,
+              "title": "Tree component: for actions, use ContextMenu",
+              "url": "https://github.com/shoptet/cms4/issues/32148",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzglndCA": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzglndCA",
+              "issue_number": 31554,
+              "title": "Allow RadioGroup options to render horizontally",
+              "url": "https://github.com/shoptet/cms4/issues/31554",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgkBfsc": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgkBfsc",
+              "issue_number": 29932,
+              "title": "`SingleSelect` unresponsive (laggy) with thousands of items",
+              "url": "https://github.com/shoptet/cms4/issues/29932",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgj8Hx4": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgj8Hx4",
+              "issue_number": 29809,
+              "title": "Context Menu",
+              "url": "https://github.com/shoptet/cms4/issues/29809",
+              "sp_start": 5,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgjOrsw": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgjOrsw",
+              "issue_number": 29010,
+              "title": "Navigation",
+              "url": "https://github.com/shoptet/cms4/issues/29010",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzghtEeA": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzghtEeA",
+              "issue_number": 10375,
+              "title": "Create Tree component",
+              "url": "https://github.com/shoptet/cms4/issues/10375",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgj8eng": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgj8eng",
+              "issue_number": 29822,
+              "title": "SD: Supporting multiple UI kits (dev perspective)",
+              "url": "https://github.com/shoptet/cms4/issues/29822",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzghtMh4": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzghtMh4",
+              "issue_number": 25472,
+              "title": "Sync eslint config for react-native ui-kit with mobile app",
+              "url": "https://github.com/shoptet/cms4/issues/25472",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgh28Yc": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgh28Yc",
+              "issue_number": 23621,
+              "title": "Allow set `width` prop to CounterField",
+              "url": "https://github.com/shoptet/cms4/issues/23621",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgk4VqE": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgk4VqE",
+              "issue_number": 30791,
+              "title": "Add icons",
+              "url": "https://github.com/shoptet/cms4/issues/30791",
+              "sp_start": 0.5,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgiEWKM": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgiEWKM",
+              "issue_number": 25854,
+              "title": "Relationships and reposnivity of containers, their elements and contents",
+              "url": "https://github.com/shoptet/cms4/issues/25854",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgh75ho": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgh75ho",
+              "issue_number": 25357,
+              "title": "Listing Components",
+              "url": "https://github.com/shoptet/cms4/issues/25357",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzglnPAU": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzglnPAU",
+              "issue_number": 31541,
+              "title": "Design component for selecting image",
+              "url": "https://github.com/shoptet/cms4/issues/31541",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgh8nlU": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgh8nlU",
+              "issue_number": 25691,
+              "title": "Search pattern",
+              "url": "https://github.com/shoptet/cms4/issues/25691",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgipPvg": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgipPvg",
+              "issue_number": 28545,
+              "title": "Add image preview to FileField",
+              "url": "https://github.com/shoptet/cms4/issues/28545",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgkvvGY": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgkvvGY",
+              "issue_number": 30675,
+              "title": "Prepare tokens for web and native Admin UI Kit in Figma",
+              "url": "https://github.com/shoptet/cms4/issues/30675",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgh0axE": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgh0axE",
+              "issue_number": 25358,
+              "title": "Empty States",
+              "url": "https://github.com/shoptet/cms4/issues/25358",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgj8cGw": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgj8cGw",
+              "issue_number": 29821,
+              "title": "SD: Supporting multiple UI kits in Figma (design perspective)",
+              "url": "https://github.com/shoptet/cms4/issues/29821",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgh8pKA": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgh8pKA",
+              "issue_number": 25143,
+              "title": "High level tokens: typography, sizing, naming convention",
+              "url": "https://github.com/shoptet/cms4/issues/25143",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgjhkSc": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgjhkSc",
+              "issue_number": 29348,
+              "title": "Finalise design for Status component",
+              "url": "https://github.com/shoptet/cms4/issues/29348",
+              "sp_start": 0,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgj7pL0": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgj7pL0",
+              "issue_number": 29790,
+              "title": "Design System npm update",
+              "url": "https://github.com/shoptet/cms4/issues/29790",
+              "sp_start": 1,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzghzoZc": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzghzoZc",
+              "issue_number": 20739,
+              "title": "POC: Whether we can run react-native components in Storybook 10",
+              "url": "https://github.com/shoptet/cms4/issues/20739",
+              "sp_start": 3,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgmPpsI": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgmPpsI",
+              "issue_number": 32202,
+              "title": "Ract Native: Text based inputs to have optional prefix and suffix",
+              "url": "https://github.com/shoptet/cms4/issues/32202",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgmeZqI": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgmeZqI",
+              "issue_number": 32377,
+              "title": "Create stories for react-native components (AppBar, ButtonBlock, CategoryHeader, DashboardHeader)",
+              "url": "https://github.com/shoptet/cms4/issues/32377",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            },
+            "PVTI_lADOABzUCM4BHtfuzgmj5dQ": {
+              "item_id": "PVTI_lADOABzUCM4BHtfuzgmj5dQ",
+              "issue_number": 32455,
+              "title": "React-native field components stories",
+              "url": "https://github.com/shoptet/cms4/issues/32455",
+              "sp_start": 2,
+              "scope_change": "baseline",
+              "first_seen_at": "2026-03-04T11:05:36.272Z",
+              "removed_at": null
+            }
+          },
+          "initialized": true
+        }
+      }
+    }
+  }
+}

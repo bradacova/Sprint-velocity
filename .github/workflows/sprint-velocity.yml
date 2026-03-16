@@ -1,0 +1,33 @@
+name: Sprint Velocity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 23 * * 1-5"
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+  repository-projects: write
+
+jobs:
+  velocity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run sprint snapshot and reporting
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          PROJECT_OWNER: ${{ vars.PROJECT_OWNER }}
+          PROJECT_NUMBER: ${{ vars.PROJECT_NUMBER }}
+          REPO: ${{ github.repository }}
+          SPRINT_FIELD_NAME: Sprint
+          SP_ORIGIN_FIELD_NAME: SP origin
+          SP_FIELD_NAME: SP
+          SP_START_FIELD_NAME: SP start
+          SP_START_ITERATION_FIELD_NAME: SP start iteration
+          DASHBOARD_ISSUE_TITLE: Sprint Velocity Dashboard
+        run: node scripts/sprint-velocity.js

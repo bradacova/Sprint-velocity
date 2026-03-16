@@ -1,0 +1,55 @@
+{
+  "projects": [
+    {
+      "name": "Mobile app",
+      "owner": "shoptet",
+      "project_number": 98,
+      "field_names": {
+        "type": "Type",
+        "role": "Role",
+        "sprint": "Sprint",
+        "sp": "SP",
+        "sp_origin": "SP origin",
+        "status": "Status",
+        "from": "From"
+      },
+      "include_types": ["Task", "Bug", "Epic"],
+      "include_roles": ["FE Dev"],
+      "done_status_values": ["Resolved"]
+    },
+    {
+      "name": "Frontend Admin",
+      "owner": "shoptet",
+      "project_number": 62,
+      "field_names": {
+        "type": "Type",
+        "sprint": "Sprint",
+        "sp": "SP",
+        "sp_origin": "SP origin",
+        "status": "Status",
+        "from": "From"
+      },
+      "include_types": ["Task", "Bug", "Epic"],
+      "include_field_name": "Team",
+      "include_field_values": ["🤖 Admin"],
+      "done_status_values": ["Resolved"]
+    },
+    {
+      "name": "Design system",
+      "owner": "shoptet",
+      "project_number": 99,
+      "field_names": {
+        "type": "Type",
+        "role": "Role",
+        "sprint": "Sprint",
+        "sp": "SP",
+        "sp_origin": "SP origin",
+        "status": "Status",
+        "from": "From"
+      },
+      "include_types": ["Task", "Bug", "Epic"],
+      "include_roles": ["FE Dev"],
+      "done_status_values": ["Resolved"]
+    }
+  ]
+}

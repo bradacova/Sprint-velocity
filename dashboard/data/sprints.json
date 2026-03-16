@@ -1,0 +1,1407 @@
+{
+  "projects": [
+    "Mobile app",
+    "Frontend Admin",
+    "Design system"
+  ],
+  "sprints": [
+    {
+      "project": "Mobile app",
+      "sprint_number": 34,
+      "period": "2026-02-12 to 2026-02-25",
+      "status": "completed",
+      "planned_sp": 20,
+      "delivered_sp": 13,
+      "remaining_sp": 7,
+      "notes": "Resolved tasks counted as SP end 0.",
+      "tasks": [
+        {
+          "id": "#26201",
+          "title": "Check env variables before build and OTA",
+          "status": "Resolved",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#23402",
+          "title": "Add Dev Console activation in production",
+          "status": "Review",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#25054",
+          "title": "InfiniteList refactoring and extraction",
+          "status": "Resolved",
+          "sp_start": 5,
+          "sp_end": 0,
+          "delivered": 5
+        },
+        {
+          "id": "#22942",
+          "title": "Credentials store: separating responsibilities",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#29918",
+          "title": "Split mobile app version into build version and ota version",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#30856",
+          "title": "validate ERROR : Schema validation error",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#30794",
+          "title": "ApiError Events [object Object] (src/utils/mobileFetch)",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#28320",
+          "title": "PoC: Caller identification",
+          "status": "In Progress",
+          "sp_start": 5,
+          "sp_end": 5,
+          "delivered": 0
+        },
+        {
+          "id": "#20785",
+          "title": "Overflowing SecureStore",
+          "status": "In Progress",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#30318",
+          "title": "IF APPROVED: forced app update",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        }
+      ]
+    },
+    {
+      "project": "Mobile app",
+      "sprint_number": 35,
+      "period": "2026-02-26 to 2026-03-11",
+      "status": "completed",
+      "planned_sp": 26,
+      "delivered_sp": 23,
+      "remaining_sp": 12,
+      "scope_added_sp": 9,
+      "scope_removed_sp": 0,
+      "scope_added_tasks": [
+        {
+          "id": "#21926",
+          "title": "Reimplement all links as translations",
+          "sp_start": 2
+        },
+        {
+          "id": "#29858",
+          "title": "Fix Missing divider in Helpdesk",
+          "sp_start": 1
+        },
+        {
+          "id": "#30384",
+          "title": "Navigate to product detail from listing of Order items",
+          "sp_start": 2
+        },
+        {
+          "id": "#32562",
+          "title": "If product in order is not on stock, it doesn't show the value",
+          "sp_start": 1
+        },
+        {
+          "id": "#32564",
+          "title": "New app version button redirects to app store when OTA",
+          "sp_start": 3
+        }
+      ],
+      "scope_removed_tasks": [],
+      "notes": "Closed manually on 2026-03-12 after accidental Sprint 36 refresh. Recalculated for #20785 SP change on 2026-03-12. Scope removal for #20786 was cleared because the task returned to sprint 35.",
+      "tasks": [
+        {
+          "id": "#20785",
+          "title": "Overflowing SecureStore",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#20786",
+          "title": "News: Implement marketing news into app",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#21517",
+          "title": "Implement QueryContainer into all screens",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 8,
+          "sp_end": 0,
+          "delivered": 8
+        },
+        {
+          "id": "#21776",
+          "title": "Add login outcome processing to skip login",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#21926",
+          "title": "Reimplement all links as translations",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#22374",
+          "title": "Mobile app: extends base TS config",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#23402",
+          "title": "Add Dev Console activation in production",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#27504",
+          "title": "Navigate to variant detail form Product detail variants preview",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#28320",
+          "title": "PoC: Caller identification",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 0,
+          "delivered": 5
+        },
+        {
+          "id": "#29026",
+          "title": "Add copy feature to email and phone field in Order detail",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#29858",
+          "title": "Fix Missing divider in Helpdesk",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#30384",
+          "title": "Navigate to product detail from listing of Order items",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#32357",
+          "title": "Lazy-load filter data — fetch only when Filter sheet is opened",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 0,
+          "sp_end": 0,
+          "delivered": 0
+        },
+        {
+          "id": "#32562",
+          "title": "If product in order is not on stock, it doesn't show the value",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#32564",
+          "title": "New app version button redirects to app store when OTA",
+          "status": "Review",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        }
+      ],
+      "sprint_label": "Sprint  35"
+    },
+    {
+      "project": "Frontend Admin",
+      "sprint_number": 34,
+      "period": "2026-02-12 to 2026-02-25",
+      "status": "completed",
+      "planned_sp": 44.5,
+      "delivered_sp": 28,
+      "remaining_sp": 16.5,
+      "notes": "Completed. Standard rule only: sprint baseline from SP at sprint start; Resolved counted as SP end 0.",
+      "tasks": [
+        {
+          "id": "#26799",
+          "title": "Move docusauruses from Vercel to shoptet-static",
+          "status": "In Progress",
+          "sp_start": 0.5,
+          "sp_end": 0.5,
+          "delivered": 0
+        },
+        {
+          "id": "#10420",
+          "title": "Separate CSS for React and Smarty pages",
+          "status": "In Progress",
+          "sp_start": 5,
+          "sp_end": 3,
+          "delivered": 2
+        },
+        {
+          "id": "#25326",
+          "title": "Cleanup SafeAndExit local state hacks",
+          "status": "Resolved",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#10649",
+          "title": "Cleanup: Rename dataTable to table (step 2)",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#30378",
+          "title": "SystemMessage adjustment during module activation",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#30243",
+          "title": "Komplet Pricelist - communicate higher tiers",
+          "status": "To Test",
+          "sp_start": 2,
+          "sp_end": 1,
+          "delivered": 1
+        },
+        {
+          "id": "#31291",
+          "title": "Packages - update (START of SPRINT)",
+          "status": "Resolved",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#31727",
+          "title": "Remove @react-aria/overlays patch",
+          "status": "Resolved",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#31499",
+          "title": "Switch root package.json from yarn 3 to PNPM",
+          "status": "Review",
+          "sp_start": 5,
+          "sp_end": 2,
+          "delivered": 3
+        },
+        {
+          "id": "#23689",
+          "title": "Rewrite AccountingSettings to React",
+          "status": "Review",
+          "sp_start": 3,
+          "sp_end": 1,
+          "delivered": 2
+        },
+        {
+          "id": "#27953",
+          "title": "Pilot error handling in some application or module",
+          "status": "Review",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#28976",
+          "title": "Implement Smart App Banner to more browsers",
+          "status": "Review",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#19313",
+          "title": "useField type error hint",
+          "status": "Review",
+          "sp_start": 3,
+          "sp_end": 1,
+          "delivered": 2
+        },
+        {
+          "id": "#31167",
+          "title": "RFC: Unified Response Format",
+          "status": "Review",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#31170",
+          "title": "Handle JsonResponse objects in FE fetch hooks",
+          "status": "In Progress",
+          "sp_start": 5,
+          "sp_end": 1,
+          "delivered": 4
+        },
+        {
+          "id": "#28564",
+          "title": "Variant image change reverts to original",
+          "status": "Resolved",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#31603",
+          "title": "Refind OpenAI landing page",
+          "status": "Resolved",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#29714",
+          "title": "Rewrite to React: EmailTemplatesLayout",
+          "status": "Review",
+          "sp_start": 3,
+          "sp_end": 1,
+          "delivered": 2
+        },
+        {
+          "id": "#31150",
+          "title": "Microsite redesign for Shoptet campaigns (Google + Meta)",
+          "status": "In Progress",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        }
+      ]
+    },
+    {
+      "project": "Frontend Admin",
+      "sprint_number": 35,
+      "period": "2026-02-26 to 2026-03-11",
+      "status": "completed",
+      "planned_sp": 49.5,
+      "delivered_sp": 26.5,
+      "remaining_sp": 28,
+      "scope_added_sp": 8,
+      "scope_removed_sp": 3,
+      "scope_added_tasks": [
+        {
+          "id": "#25671",
+          "title": "Selects: Simplify options API",
+          "sp_start": 5
+        },
+        {
+          "id": "#30861",
+          "title": "Move data for shared footers from csvs to code",
+          "sp_start": 3
+        }
+      ],
+      "scope_removed_tasks": [
+        {
+          "id": "#31407",
+          "title": "RFC: Standardize Backend-Frontend Response Serialization",
+          "sp_start": 3
+        }
+      ],
+      "notes": "Closed manually on 2026-03-12 after accidental Sprint 36 refresh. Recalculated from GitHub values on 2026-03-12.",
+      "tasks": [
+        {
+          "id": "#10420",
+          "title": "Separate CSS for React and Smarty pages",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#10581",
+          "title": "React: Handle CSRF expiration when XHR is returned logged out response",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#10613",
+          "title": "Duplicate jQuery Cybergenics form validator in Admin and CRM",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 0,
+          "delivered": 5
+        },
+        {
+          "id": "#17690",
+          "title": "Replace the word \"váha\" with \"hmotnost\" in admin",
+          "status": "Resolved",
+          "from": "Catalog",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#19313",
+          "title": "`useField` type error hint",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#21388",
+          "title": "Copy to clipboard next to H1 in react",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#23689",
+          "title": "Rewrite AccountingSettings to React",
+          "status": "To Do",
+          "from": "Orange",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#25671",
+          "title": "Selects: Simplify options API",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 5,
+          "sp_end": 5,
+          "delivered": 0
+        },
+        {
+          "id": "#26382",
+          "title": "Add field to apply discount code for new project tariff",
+          "status": "To Do",
+          "from": "Orange",
+          "scope_change": "baseline",
+          "sp_start": 8,
+          "sp_end": 8,
+          "delivered": 0
+        },
+        {
+          "id": "#26799",
+          "title": "Move docusauruses from Vercel to shoptet-static",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 0.5,
+          "sp_end": 0,
+          "delivered": 0.5
+        },
+        {
+          "id": "#27953",
+          "title": "Pilot error handling in some application or module",
+          "status": "Review",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0.5,
+          "delivered": 0.5
+        },
+        {
+          "id": "#28976",
+          "title": "Implement Smart App Banner to more browsers",
+          "status": "To Test",
+          "from": "MobileApp",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0.5,
+          "delivered": 0.5
+        },
+        {
+          "id": "#29714",
+          "title": "Rewrite to React: EmailTemplatesLayout",
+          "status": "In Progress",
+          "from": "Green",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#30243",
+          "title": "Komplet Pricelist - communicate higher tiers",
+          "status": "Resolved",
+          "from": "Logistics",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#30297",
+          "title": "`ConfirmModal` API issue",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#30861",
+          "title": "Move data for shared footers from csvs to code",
+          "status": "Review",
+          "from": "Marketing",
+          "scope_change": "added",
+          "sp_start": 3,
+          "sp_end": 1,
+          "delivered": 2
+        },
+        {
+          "id": "#31150",
+          "title": "Microsite redesign for Shoptet campaigns (Google + Meta)",
+          "status": "Test In Progress",
+          "from": "Campaigns",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#31167",
+          "title": "RFC: Unified Response Format",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#31170",
+          "title": "Handle `JsonResponse` objects in FE `fetch` hooks",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#31329",
+          "title": "Add Userpilot directly into codebase",
+          "status": "In Progress",
+          "from": "Premium",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#31336",
+          "title": "Add new og images to doplnky.shoptet.cz-hu",
+          "status": "Resolved",
+          "from": "Marketing",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#31407",
+          "title": "RFC: Standardize Backend-Frontend Response Serialization",
+          "status": "Removed",
+          "from": "",
+          "scope_change": "removed",
+          "sp_start": 3,
+          "sp_end": null,
+          "delivered": null
+        },
+        {
+          "id": "#31499",
+          "title": "Switch root package.json from yarn 3 to PNPM",
+          "status": "Review",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 1,
+          "delivered": 1
+        },
+        {
+          "id": "#31757",
+          "title": "Translate all possible error pages to display the same error",
+          "status": "Resolved",
+          "from": "Marketing",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#32065",
+          "title": "create hook `useHandleUploadImage`",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 2,
+          "delivered": 3
+        },
+        {
+          "id": "#32171",
+          "title": "Packages - update (START of SPRINT)",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        }
+      ],
+      "sprint_label": "Sprint  35"
+    },
+    {
+      "project": "Design system",
+      "sprint_number": 35,
+      "period": "2026-02-19 to 2026-03-04",
+      "status": "completed",
+      "planned_sp": 32.5,
+      "delivered_sp": 27.5,
+      "remaining_sp": 11,
+      "scope_added_sp": 6,
+      "scope_removed_sp": 0,
+      "scope_added_tasks": [
+        {
+          "id": "#32202",
+          "title": "Ract Native: Text based inputs to have optional prefix and suffix",
+          "sp_start": 2
+        },
+        {
+          "id": "#32377",
+          "title": "Create stories for react-native components (AppBar, ButtonBlock, CategoryHeader, DashboardHeader)",
+          "sp_start": 2
+        },
+        {
+          "id": "#32455",
+          "title": "React-native field components stories",
+          "sp_start": 2
+        }
+      ],
+      "scope_removed_tasks": [],
+      "notes": "Finalized from end-of-sprint screenshot. Synced values corrected manually.",
+      "tasks": [
+        {
+          "id": "#10375",
+          "title": "Create Tree component",
+          "status": "Resolved",
+          "from": "Multishop",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#20739",
+          "title": "POC: Whether we can run react-native components in Storybook 10",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#23621",
+          "title": "Allow set `width` prop to CounterField",
+          "status": "Resolved",
+          "from": "CashRegister",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#25143",
+          "title": "High level tokens: typography, sizing, naming convention",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#25472",
+          "title": "Sync eslint config for react-native ui-kit with mobile app",
+          "status": "Dev Review",
+          "from": "MobileApp",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 1,
+          "delivered": 1
+        },
+        {
+          "id": "#25854",
+          "title": "Relationships and reposnivity of containers, their elements and contents",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#29010",
+          "title": "Navigation",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 0,
+          "delivered": 3
+        },
+        {
+          "id": "#29053",
+          "title": "AppBar Enhancement",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#29790",
+          "title": "Design System npm update",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#29809",
+          "title": "Context Menu",
+          "status": "Resolved",
+          "from": "Marketplaces",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 0,
+          "delivered": 5
+        },
+        {
+          "id": "#29822",
+          "title": "SD: Supporting multiple UI kits (dev perspective)",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#29932",
+          "title": "`SingleSelect` unresponsive (laggy) with thousands of items",
+          "status": "Tested",
+          "from": "Marketplaces",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 1,
+          "delivered": 2
+        },
+        {
+          "id": "#30673",
+          "title": "Prepare tokens for Web and Native Admin UI Kit in code",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 2,
+          "delivered": 3
+        },
+        {
+          "id": "#30791",
+          "title": "Add icons",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 0.5,
+          "sp_end": 0,
+          "delivered": 0.5
+        },
+        {
+          "id": "#32202",
+          "title": "Ract Native: Text based inputs to have optional prefix and suffix",
+          "status": "In Progress",
+          "from": "CashRegister",
+          "scope_change": "added",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#32377",
+          "title": "Create stories for react-native components (AppBar, ButtonBlock, CategoryHeader, DashboardHeader)",
+          "status": "Dev Review",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 2,
+          "sp_end": 1,
+          "delivered": 1
+        },
+        {
+          "id": "#32455",
+          "title": "React-native field components stories",
+          "status": "Dev Review",
+          "from": "",
+          "scope_change": "added",
+          "sp_start": 2,
+          "sp_end": 1,
+          "delivered": 1
+        }
+      ],
+      "sprint_label": "Sprint  35"
+    },
+    {
+      "project": "Design system",
+      "sprint_number": 36,
+      "sprint_label": "Sprint  36",
+      "period": "2026-03-05 to 2026-03-18",
+      "status": "in_progress",
+      "planned_sp": 27,
+      "delivered_sp": 9,
+      "remaining_sp": 20,
+      "scope_added_sp": 2,
+      "scope_removed_sp": 0,
+      "scope_added_tasks": [
+        {
+          "id": "#32632",
+          "title": "React Native: CounterInput on web triggers focus",
+          "sp_start": 2
+        }
+      ],
+      "scope_removed_tasks": [],
+      "notes": "Synced from GitHub API.",
+      "tasks": [
+        {
+          "id": "#25472",
+          "title": "Sync eslint config for react-native ui-kit with mobile app",
+          "status": "Resolved",
+          "from": "MobileApp",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#29053",
+          "title": "AppBar Enhancement",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#29790",
+          "title": "Design System npm update",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#29932",
+          "title": "`SingleSelect` unresponsive (laggy) with thousands of items",
+          "status": "Resolved",
+          "from": "Marketplaces",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#30673",
+          "title": "Prepare tokens for Web and Native Admin UI Kit in code",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#32202",
+          "title": "Ract Native: Text based inputs to have optional prefix and suffix",
+          "status": "Resolved",
+          "from": "CashRegister",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 0,
+          "delivered": 2
+        },
+        {
+          "id": "#32365",
+          "title": "PoC: Supporting multiple UI Kits",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 8,
+          "sp_end": 8,
+          "delivered": 0
+        },
+        {
+          "id": "#32377",
+          "title": "Create stories for react-native components (AppBar, ButtonBlock, CategoryHeader, DashboardHeader)",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#32455",
+          "title": "React-native field components stories",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 0,
+          "delivered": 1
+        },
+        {
+          "id": "#32592",
+          "title": "Enhance FileField with image preview",
+          "status": "Dev Review",
+          "from": "Multishop",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#32596",
+          "title": "React Web: Implement new tokens for all components",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 5,
+          "delivered": 0
+        },
+        {
+          "id": "#32632",
+          "title": "React Native: CounterInput on web triggers focus",
+          "status": "In Progress",
+          "from": "CashRegister",
+          "scope_change": "added",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        }
+      ]
+    },
+    {
+      "project": "Mobile app",
+      "sprint_number": 36,
+      "sprint_label": "Sprint  36",
+      "period": "2026-03-12 to 2026-03-25",
+      "status": "in_progress",
+      "planned_sp": 26,
+      "delivered_sp": 0,
+      "remaining_sp": 26,
+      "scope_added_sp": 0,
+      "scope_removed_sp": 0,
+      "scope_added_tasks": [],
+      "scope_removed_tasks": [],
+      "notes": "Synced from GitHub API.",
+      "tasks": [
+        {
+          "id": "#20785",
+          "title": "Overflowing SecureStore",
+          "status": "Test In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#20786",
+          "title": "News: Implement marketing news into app",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#21776",
+          "title": "Add login outcome processing to skip login",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#23402",
+          "title": "Add Dev Console activation in production",
+          "status": "Failed",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#28522",
+          "title": "Add test for all `utils` function.",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 8,
+          "sp_end": 8,
+          "delivered": 0
+        },
+        {
+          "id": "#32248",
+          "title": "Fix PushTopicsStateSchema and cleanup relevant types",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#32564",
+          "title": "New app version button redirects to app store when OTA",
+          "status": "Test In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#32666",
+          "title": "Hidden products show wrong state of visibility",
+          "status": "Tested",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#32910",
+          "title": "Improve visibility of the \"All\" button in listings",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        }
+      ]
+    },
+    {
+      "project": "Frontend Admin",
+      "sprint_number": 36,
+      "sprint_label": "Sprint  36",
+      "period": "2026-03-12 to 2026-03-25",
+      "status": "in_progress",
+      "planned_sp": 46,
+      "delivered_sp": 0.5,
+      "remaining_sp": 45.5,
+      "scope_added_sp": 0,
+      "scope_removed_sp": 0,
+      "scope_added_tasks": [],
+      "scope_removed_tasks": [],
+      "notes": "Synced from GitHub API.",
+      "tasks": [
+        {
+          "id": "#10420",
+          "title": "Separate CSS for React and Smarty pages",
+          "status": "Review",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#23689",
+          "title": "Rewrite AccountingSettings to React",
+          "status": "To Do",
+          "from": "Orange",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#25671",
+          "title": "Selects: Simplify options API",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#26382",
+          "title": "Add field to apply discount code for new project tariff",
+          "status": "To Do",
+          "from": "Orange",
+          "scope_change": "baseline",
+          "sp_start": 8,
+          "sp_end": 8,
+          "delivered": 0
+        },
+        {
+          "id": "#26914",
+          "title": "Improve consultation option copy and UI",
+          "status": "To Do",
+          "from": "Orange",
+          "scope_change": "baseline",
+          "sp_start": 3,
+          "sp_end": 3,
+          "delivered": 0
+        },
+        {
+          "id": "#27953",
+          "title": "Pilot error handling in some application or module",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 0.5,
+          "sp_end": 0,
+          "delivered": 0.5
+        },
+        {
+          "id": "#28976",
+          "title": "Implement Smart App Banner to more browsers",
+          "status": "To Test",
+          "from": "MobileApp",
+          "scope_change": "baseline",
+          "sp_start": 0.5,
+          "sp_end": 0.5,
+          "delivered": 0
+        },
+        {
+          "id": "#29714",
+          "title": "Rewrite to React: EmailTemplatesLayout",
+          "status": "In Progress",
+          "from": "Green",
+          "scope_change": "baseline",
+          "sp_start": 0.5,
+          "sp_end": 0.5,
+          "delivered": 0
+        },
+        {
+          "id": "#30861",
+          "title": "Move data for shared footers from csvs to code",
+          "status": "Test In Progress",
+          "from": "Marketing",
+          "scope_change": "baseline",
+          "sp_start": 0.5,
+          "sp_end": 0.5,
+          "delivered": 0
+        },
+        {
+          "id": "#31150",
+          "title": "Microsite redesign for Shoptet campaigns (Google + Meta)",
+          "status": "Tested",
+          "from": "Campaigns",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#31329",
+          "title": "Add Userpilot directly into codebase",
+          "status": "In Progress",
+          "from": "Premium",
+          "scope_change": "baseline",
+          "sp_start": 1,
+          "sp_end": 1,
+          "delivered": 0
+        },
+        {
+          "id": "#31499",
+          "title": "Switch root package.json from yarn 3 to PNPM",
+          "status": "Tested",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 5,
+          "delivered": 0
+        },
+        {
+          "id": "#32065",
+          "title": "create hook `useHandleUploadImage`",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#32440",
+          "title": "Packages - update (START of SPRINT)",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 2,
+          "sp_end": 2,
+          "delivered": 0
+        },
+        {
+          "id": "#32498",
+          "title": "Read status codes properly, `respones.ok` is not a solution",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 5,
+          "delivered": 0
+        },
+        {
+          "id": "#32501",
+          "title": "Be ensured that our fetch layers are ready to handle new RFC responses",
+          "status": "To Do",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 5,
+          "delivered": 0
+        },
+        {
+          "id": "#32503",
+          "title": "Fix `onError` error handling",
+          "status": "Resolved",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 0,
+          "sp_end": 0,
+          "delivered": 0
+        },
+        {
+          "id": "#33080",
+          "title": "181 AdminUsersListing/adminUsers to React",
+          "status": "In Progress",
+          "from": "",
+          "scope_change": "baseline",
+          "sp_start": 5,
+          "sp_end": 5,
+          "delivered": 0
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "last_updated_at": "2026-03-16T11:18:39.495Z",
+    "last_action": "sync",
+    "last_project": "ALL"
+  }
+}

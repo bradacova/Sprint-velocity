@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sprint Velocity Dashboard</title>
+    <link rel="stylesheet" href="./styles.css?v=20260304d" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Sprint Velocity Dashboard</h1>
+        <p>Plan vs delivered story points across projects and sprints.</p>
+        <p id="lastUpdated" class="last-updated">Last data update: checking...</p>
+      </header>
+
+      <section class="controls card">
+        <div class="controls-row">
+          <span class="controls-label">Project</span>
+          <div id="projectTabs" class="project-tabs" role="tablist" aria-label="Project filter"></div>
+        </div>
+        <div class="action-bar">
+          <button id="refreshAllBtn" class="action-btn" type="button">Refresh Data</button>
+          <button id="startSprintBtn" class="action-btn secondary" type="button">Refresh Beginning of Sprint</button>
+          <button id="endSprintBtn" class="action-btn secondary" type="button">Refresh End of Sprint</button>
+        </div>
+        <p id="actionHint" class="action-hint">
+          Refresh Data updates all projects. Sprint start/end actions work on the selected project only.
+        </p>
+        <p id="actionStatus" class="action-status" aria-live="polite"></p>
+      </section>
+
+      <section id="summary" class="summary-grid"></section>
+
+      <section class="card">
+        <h2>Team Average Velocity</h2>
+        <div class="table-wrap">
+          <table id="teamVelocityTable">
+            <thead>
+              <tr>
+                <th>Project</th>
+                <th>Completed Sprints</th>
+                <th>Avg Delivered SP</th>
+                <th>Avg Planned SP</th>
+                <th>Avg Cross-team %</th>
+                <th>Delivery Rate</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Trend</h2>
+        <div id="chartWrap"></div>
+      </section>
+
+      <section class="card">
+        <h2>Sprint History</h2>
+        <div class="table-wrap">
+          <table id="historyTable">
+            <thead>
+              <tr>
+                <th>Expand</th>
+                <th>Project</th>
+                <th>Sprint</th>
+                <th>Period</th>
+                <th>Status</th>
+                <th>Cross-team %</th>
+                <th>Planned SP</th>
+                <th>Scope +SP</th>
+                <th>Scope -SP</th>
+                <th>Current Scope SP</th>
+                <th>Delivered SP</th>
+                <th>Remaining SP</th>
+                <th>Vs Planned %</th>
+                <th>Vs Scope %</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>How To Update</h2>
+        <p>
+          Add or edit sprint records in
+          <code>/Users/bradacova/Documents/Github velocity/dashboard/data/sprints.json</code>.
+          Reload the page to refresh.
+        </p>
+      </section>
+    </main>
+
+    <script src="./app.js?v=20260309b" type="module"></script>
+  </body>
+</html>
